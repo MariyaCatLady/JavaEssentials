@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class DoubleOrNothing {
     //data fields
     private final int START_POINTS = 10;
-
     private int points = START_POINTS;
     private final Random random = new Random();
     private final Scanner scanner = new Scanner(System.in);
