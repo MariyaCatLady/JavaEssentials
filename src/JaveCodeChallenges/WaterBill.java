@@ -35,7 +35,8 @@ public class WaterBill {
     }
 
     public static double calculateAdditionalCharges(double gallonsUsed, double minGallons, double minCharge) {
-        double CCFs = Math.ceil((gallonsUsed - minGallons) / 748);
+        final double numberOfGallonsInCCF = 748;
+        double CCFs = Math.ceil((gallonsUsed - minGallons) / numberOfGallonsInCCF);
         final double ADDITIONAL_CHARGES = 3.90;
         return minCharge + (CCFs * ADDITIONAL_CHARGES);
     }
