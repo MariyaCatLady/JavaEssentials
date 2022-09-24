@@ -39,7 +39,7 @@ public class DoubleOrNothing {
         System.out.println("Do you want to keep playing?");
         String userInput = this.scanner.next();
 
-        if (userInput.equalsIgnoreCase("no")) {
+        if (userInput.equalsIgnoreCase("no")){
             this.keepPlaying = false;
         }
     }
