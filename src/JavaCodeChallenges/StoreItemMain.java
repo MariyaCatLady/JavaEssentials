@@ -11,9 +11,5 @@ public class StoreItemMain {
                 new StoreItem("cereal", 9.00, 0.6));
 
         System.out.println(StoreItem.findLeastExpensiveItem(items));
-
-
     }
-
-
 }
