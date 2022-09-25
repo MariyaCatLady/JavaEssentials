@@ -1,4 +1,4 @@
-/*package JaveCodeChallenges;
+package JavaCodeChallenges;
 
 import java.util.Collection;
 import java.util.Comparator;
@@ -16,13 +16,8 @@ public class StoreItem {
     double retailPrice;
     double discount;
 
-    public static Optional<StoreItem> findLeastExpensive(
-            Collection<StoreItem> items) {
-
-        return items
-                .stream()
-                .min(Comparator
-                        .comparing(StoreItem::calculateCurrentPrice));
+    public static Optional<StoreItem> findLeastExpensive(Collection<StoreItem> items) {
+        return items.stream().min(Comparator.comparing(StoreItem::calculateCurrentPrice));
     }
 
     private double calculateCurrentPrice() {
@@ -31,8 +26,6 @@ public class StoreItem {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", " + "Retail price: " +
-                retailPrice + ", " + "Discount " + discount;
+        return "Name: " + name + ", " + "Retail price: " + retailPrice + ", " + "Discount " + discount;
     }
-}*/
-
+}
