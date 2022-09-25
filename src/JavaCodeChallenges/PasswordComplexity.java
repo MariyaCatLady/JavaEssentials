@@ -1,4 +1,4 @@
-package JaveCodeChallenges;
+package JavaCodeChallenges;
 
 import java.util.Scanner;
 

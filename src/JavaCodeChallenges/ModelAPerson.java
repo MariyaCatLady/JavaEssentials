@@ -1,4 +1,4 @@
-package JaveCodeChallenges;
+package JavaCodeChallenges;
 
 public class ModelAPerson {
     public static void main(String[] args) {

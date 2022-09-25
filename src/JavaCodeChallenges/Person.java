@@ -1,4 +1,4 @@
-package JaveCodeChallenges;
+package JavaCodeChallenges;
 
 //Implementation of the Person class
 public class Person {
